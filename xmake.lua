@@ -1,8 +1,12 @@
 add_rules("mode.debug", "mode.release")
 
+add_includedirs("include")
+set_languages("c17")
+
 target("DataStructures")
     set_kind("binary")
     add_files("src/*.c")
+    add_includedirs("include")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
@@ -42,7 +46,7 @@ target("DataStructures")
 --
 -- @code
 --    -- add debug and release modes
-   add_rules("mode.debug", "mode.release")
+--    add_rules("mode.debug", "mode.release")
 --
 --    -- add macro definition
 --    add_defines("NDEBUG", "_GNU_SOURCE=1")
@@ -51,7 +55,7 @@ target("DataStructures")
 --    set_warnings("all", "error")
 --
 --    -- set language: c99, c++11
-   set_languages("c11")
+--    set_languages("c11")
 --
 --    -- set optimization: none, faster, fastest, smallest
 --    set_optimize("fastest")
