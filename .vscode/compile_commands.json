@@ -1,6 +1,0 @@
-[
-{
-  "directory": "/Users/tien/Development/DataStructures",
-  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-std=c17", "-Iinclude", "-o", "build/.objs/DataStructures/macosx/arm64/debug/src/main.c.o", "src/main.c"],
-  "file": "src/main.c"
-}]
