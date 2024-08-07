@@ -1,6 +1,6 @@
 [
 {
-  "directory": "c:\\Users\\const\\Desktop\\DataStructures",
-  "arguments": ["C:\\Program Files\\LLVM\\bin\\clang-cl.exe", "-c", "-m64", "-Zi", "-FS", "-Fdbuild\\windows\\x64\\debug\\compile.DataStructures.pdb", "-Od", "-std:c17", "-Iinclude", "-Fobuild\\.objs\\DataStructures\\windows\\x64\\debug\\src\\main.c.obj", "src\\main.c"],
-  "file": "src\\main.c"
+  "directory": "/Users/tien/Development/DataStructures",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-g", "-O0", "-std=c17", "-Iinclude", "-o", "build/.objs/DataStructures/macosx/arm64/debug/src/main.c.o", "src/main.c"],
+  "file": "src/main.c"
 }]
