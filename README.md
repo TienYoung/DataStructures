@@ -1,5 +1,5 @@
 - Linked List
-    - [x] Single
-    - [ ] Double
+    - [x] Singly
+    - [ ] Doubly
     - [ ] Sorted
 
